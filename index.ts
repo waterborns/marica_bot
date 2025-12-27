@@ -5,6 +5,7 @@ import "dotenv/config";
 import { onMessage } from "./comandos";
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
+
 if (!BOT_TOKEN) {
   throw new Error("Falta la variable de entorno BOT_TOKEN")
 }
